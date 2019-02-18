@@ -1,4 +1,4 @@
-#!/usr/bin/env node --no-deprecation
+#!/usr/bin/env node
 const CogearJS = require('../lib/cogear.js');
 const cogear = new CogearJS();
 cogear.emit('cli');
